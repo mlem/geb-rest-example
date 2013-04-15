@@ -1,0 +1,12 @@
+allprojects {
+
+	apply plugin: 'idea'
+
+    version = '1.0.0-SNAPSHOT'
+    group = 'org.gebish'
+    sourceCompatibility = 1.6
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion "1.5"
+}
